@@ -25,8 +25,8 @@
     "/(movies)/movies/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(movies)/movies/[id]/page.js",
-      "static/css/app/(movies)/movies/[id]/page.css"
+      "static/css/app/(movies)/movies/[id]/page.css",
+      "static/chunks/app/(movies)/movies/[id]/page.js"
     ],
     "/(movies)/movies/[id]/error": [
       "static/chunks/webpack.js",
@@ -37,6 +37,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(movies)/movies/[id]/loading.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
